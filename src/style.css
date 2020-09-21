@@ -1,0 +1,71 @@
+/* reset */
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+/* variables */
+:root{
+      --main : #ff4d4d;
+}
+
+/* main  */
+body{
+      background: var(--main);
+      font-family: 'Open Sans', sans-serif;   
+}
+
+h1,h2{
+      color: white;
+      text-align: center;
+      margin-top: 2rem;
+      font-size: 3rem;
+      font-weight: 500;
+}
+h2{ 
+      margin-top: 0.5rem;
+      font-size: 2rem;
+      font-weight: 300;
+}
+h4{
+      margin-bottom: 1rem;
+}
+.question-block{
+      background: white;
+      width: 50%;
+      margin: 2rem auto 1rem auto;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 5px 5px 5px 0 rgba(17, 17, 17, 0.39);
+}
+
+form button{
+      display: block;
+      margin: 1rem auto 3rem auto;
+      padding: 0.5rem 1rem 0.5rem 1rem;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+}
+form button:hover{
+      background: rgba(255, 255, 255, 0.733);
+}
+
+form button:focus{
+      outline: none;
+}
+
+.results{
+      margin: 1rem auto 3rem auto;
+      color: white;
+      width: 50%;
+      text-align: center;
+      font-size : 2rem;
+}
+
+@media only screen and (max-width: 1001px) {
+      .question-block{
+            width: 80%;   
+      }
+}
