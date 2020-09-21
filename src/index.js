@@ -24,7 +24,6 @@ function verifResults() {
             nbFautes += 1;
         }
     }
-    console.log(nbFautes);
     displayResults(nbFautes);
 }
 
@@ -53,6 +52,6 @@ function displayResults(fautes) {
 
     window.scrollTo({ top: 1000 , left: 0, behavior: "smooth" });
 
-    setTimeout(() => {location.reload()},'4000');
+    setTimeout(() => {location.reload()},'3000');
 
 }
