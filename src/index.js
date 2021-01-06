@@ -1,4 +1,4 @@
-import "./style.css";
+// import "./style.css";
 
 const form = document.querySelector(".form-quizz");
 const tabResults = ["b", "a", "a", "c", "b"];
