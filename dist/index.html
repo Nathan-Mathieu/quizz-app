@@ -3,7 +3,114 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet" />
         <title>Quizz</title>
     </head>
-    <body><script src="main.bundle.js"></script></body>
+    <body>
+        <h1>Quizz</h1>
+        <h2>Spécial guitaristes</h2>
+
+        <form class="form-quizz">
+            <div class="question-block">
+                <h4>Qui est chanteur et guitariste du groupe Metallica ? :</h4>
+
+                <div>
+                    <input type="radio" id="hammet" name="q1" value="a" checked/>
+                    <label for="hammet">Kirk Hammet</label>
+                </div>
+
+                <div>
+                    <!--WIN-->
+                    <input type="radio" id="hetfield" name="q1" value="b" />
+                    <label for="hetfield">James Hetfield</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="morello" name="q1" value="c" />
+                    <label for="morello">Tom Morello</label>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <h4>Il avait la particularité d'être un guitariste gaucher, mais de jouer sur une guitare de droitier :</h4>
+                <div>
+                    <!--WIN-->
+                    <input type="radio" id="hendrix" name="q2" value="a" checked/>
+                    <label for="hendrix">Jimi Hendrix</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="clapton" name="q2" value="b" />
+                    <label for="clapton">Eric clapton</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="murray" name="q2" value="c" />
+                    <label for="murray">Dave Murray</label>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <h4>Quel célèbre guitariste porte un chapeau haut de forme sur scène ? :</h4>
+                <div>
+                    <!--WIN-->
+                    <input type="radio" id="slash" name="q3" value="a" checked/>
+                    <label for="slash">Slash</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="vai" name="q3" value="b" />
+                    <label for="vai">Steve Vai</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="sambora" name="q3" value="c" />
+                    <label for="sambora">Richie Sambora</label>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <h4>Qui est le guitariste soliste du groupe ACDC ? :</h4>
+
+                <div>
+                    <input type="radio" id="berry" name="q4" value="a" checked/>
+                    <label for="berry">Chuck Berry</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="beck" name="q4" value="b" />
+                    <label for="beck">Jeff Beck</label>
+                </div>
+
+                <div>
+                    <!--WIN-->
+                    <input type="radio" id="young" name="q4" value="c" />
+                    <label for="young">Angus Young</label>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <h4>Qui fut le batteur du groupe Nirvana, et est aujourd'hui chanteur/guitariste du goupe Foo Fighters ? :</h4>
+                <div>
+                    <input type="radio" id="shiflett" name="q5" value="a" checked/>
+                    <label for="shiflett">Chris Shiflett</label>
+                </div>
+
+                <div>
+                    <!--WIN-->
+                    <input type="radio" id="grohl" name="q5" value="b" />
+                    <label for="grohl">Dave Grohl</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="springsteen" name="q5" value="c" />
+                    <label for="springsteen">Bruce Springsteen</label>
+                </div>
+            </div>
+
+            <button type="submit">Envoyer</button>
+
+            <div class="results"></div>
+        </form>
+    <script src="main.bundle.js"></script></body>
 </html>
